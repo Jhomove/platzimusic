@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png" alt />
+    <img src="https://jhomove.github.io/platzimusic/dist/logo.png" alt />
     <h1>PlatziMusic</h1>
     <select name id v-model="selectedCountry">
       <option v-for="(country,key) in countries" :value="country.value" :key="key">{{country.name}}</option>
